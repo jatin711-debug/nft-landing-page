@@ -3,27 +3,55 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 @layer components{
-    .coin-container{
-        @apply w-64                
-    }
     .navbar{
-        @apply flex w-screen justify-between bg-black text-gray-300 h-8 items-center p-4
+        @apply flex w-screen justify-around flex-wrap text-gray-300 h-20 items-center p-4 font-bold 
     }
     .coin-component-container{
-        @apply flex m-4 mt-64 justify-evenly
+        @apply flex m-4 mt-32 justify-evenly items-center
     }
     .footer-container{
-        @apply flex flex-row justify-evenly w-screen items-stretch mt-12
+        @apply flex flex-row justify-evenly w-screen items-stretch mt-12 mb-4
     }
     .footer-about{
         @apply flex flex-wrap w-96
+    }
+    .foot{
+        @apply mt-32 mb-2
+    }
+    .main-video {
+        @apply flex justify-center w-2/3
+    }
+    .main-content{
+        @apply flex flex-row justify-center items-center text-center
+    }
+    .main-container{
+        @apply mt-32
+    }
+    .main-text{
+        @apply flex justify-center items-center
+    }
+    .header-container{
+        @apply mt-4
+    }
+    .company{
+        @apply flex justify-center items-center mt-8
+    }
+    .company > h1 {
+        @apply border-2 text-6xl p-8 rounded-md
+    }
+    ul {
+        @apply flex 
+    } 
+    ul > li {
+        @apply p-4
     }
 }
 
 body{
     font-family: 'Raleway', sans-serif;
     background-color: black;
-    color:aliceblue
+    color:aliceblue;
+    overflow-x: hidden;
 }
 
 .image .content {
@@ -33,11 +61,6 @@ body{
     align-items: center;
     width: 100%;
     height: 100vh;
-}
-
-.image {
-    height: 100vh;
-    min-width: 100vw;
 }
 
 h1{

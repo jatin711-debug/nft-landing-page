@@ -1,7 +1,6 @@
-import { FaGithub, FaYoutube, FaInstagram } from "react-icons/fa";
 const Footer = () => {
     return (
-      <>
+      <div data-aos="fade-down" className="foot">
         <hr/>
         <div className="footer-container">
           <div className="footer-about">
@@ -16,17 +15,10 @@ const Footer = () => {
               <li>link1</li>
             </ul>
           </div>
-          <div className="footer-links">
-            <h1>Links</h1>
-            <ul>
-              <li><FaGithub/></li>
-              <li><FaYoutube/></li>
-              <li><FaInstagram/></li>
-            </ul>
-          </div>
         </div>
-      </>  
+        <hr/>
+      </div>  
     );
 }
 
-export default Footer
+export default Footer;

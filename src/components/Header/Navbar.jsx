@@ -1,12 +1,14 @@
+import SocialMedia from "../SocialMedia/SocialMedia";
+
 const Navbar = () => {
-    const NavComponent = ({name})=>(
-        <div className="nav-component">{name}</div>
-    );
     return (
         <div className="navbar">
-            <NavComponent name="Home"/>
-            <NavComponent name="About"/>
-            <NavComponent name="Contact"/>
+            <div className="navbar-container">
+                <div className="navbar-logo" data-aos="fade-right">
+                    <h1>Logo</h1>
+                </div>
+            </div>
+            <SocialMedia/>
         </div>
     );
 }
