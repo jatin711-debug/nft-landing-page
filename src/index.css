@@ -19,10 +19,10 @@
         @apply mt-32 mb-2
     }
     .main-video {
-        @apply flex justify-center w-2/3
+        @apply flex justify-center w-96
     }
     .main-content{
-        @apply flex flex-row justify-center items-center text-center
+        @apply flex flex-row justify-evenly items-center text-center
     }
     .main-container{
         @apply mt-32

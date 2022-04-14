@@ -17,8 +17,8 @@ export default function App() {
             <Header />
             <Main/>
             <div className="coin-component-container" >
-                <CoinComponent source="https://johnny-buck.s3.us-west-2.amazonaws.com/dogcoin.gif"/>
-                <CoinComponent source="https://johnny-buck.s3.us-west-2.amazonaws.com/scoobyman+(1).gif"/>
+                <CoinComponent source="https://johnny-buck.s3.us-west-2.amazonaws.com/coward+(1).gif"/>
+                <CoinComponent source="https://johnny-buck.s3.us-west-2.amazonaws.com/scooby-2+(1).gif"/>
                 <CoinComponent source="https://johnny-buck.s3.us-west-2.amazonaws.com/coin-c.gif"/>
             </div>
             <Footer />
