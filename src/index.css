@@ -19,7 +19,7 @@
         @apply mt-32 mb-2
     }
     .main-video {
-        @apply flex justify-center w-2/4
+        @apply flex justify-center w-1/4 flex-col
     }
     .main-content{
         @apply flex flex-row justify-evenly items-center text-center
@@ -34,10 +34,10 @@
         @apply mt-4
     }
     .company{
-        @apply flex justify-center items-center mt-8 w-auto 
+        @apply flex justify-center items-center mt-8 w-auto z-10 drop-shadow-2xl
     }
     .company > h1 {
-        @apply w-fit text-9xl p-8 rounded-md
+        @apply w-fit text-9xl p-8 rounded-md 
     }
     ul {
         @apply flex 
@@ -51,6 +51,13 @@
     html{
         @apply scroll-smooth
     }
+    .visit-btn{
+        @apply flex justify-center items-center bg-blue-500 w-auto h-4
+    }
+    .mq-container{
+        @apply flex justify-center items-stretch mt-4
+    }
+
 }
 
 body{
@@ -81,4 +88,22 @@ hr{
 
 ul > li{
     margin:5px;
+}
+
+@keyframes color-change {
+    0% { color: #ffffff }
+    10% { color: #f8f8ff }
+    20% { color: #fffafa }
+    30% { color: #f5fffa }
+    40% { color: #f0f8ff }
+    50% { color: #fff5ee; }
+    60% { color: #fffaf0; }
+    70% { color: #fffff0; }
+    80% { color: #f5f5f5; }
+    90% { color: #f2f3f4; }
+    100% { color: #fdfff5; }
+  }
+
+.company{
+    animation: color-change 3s infinite;
 }

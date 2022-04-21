@@ -1,6 +1,6 @@
 const CoinComponent = ({source}) => {
     return (
-        <div className="max-w-sm h-fit bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 sm:w-64 sm:max-h-sm mb-4" data-aos="fade-up coin-component">
+        <div className="max-w-sm h-fit bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700" data-aos="fade-up">
             <a href="#/">
                 <img className="rounded-t-lg" src={source} alt="" />
             </a>
