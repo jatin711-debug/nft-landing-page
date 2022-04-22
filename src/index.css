@@ -6,6 +6,9 @@
     .navbar{
         @apply flex w-screen justify-around flex-wrap text-gray-300 h-20 items-center p-4 font-bold 
     }
+    .navbar-logo{
+        @apply w-64
+    }
     .coin-component-container{
         @apply flex m-4 mt-32 justify-evenly items-stretch sm:flex-col md:flex-col lg:flex-row
     }
@@ -19,7 +22,7 @@
         @apply mt-32 mb-2
     }
     .main-video {
-        @apply flex justify-center w-1/4 flex-col
+        @apply flex justify-center w-2/4 flex-col
     }
     .main-content{
         @apply flex flex-row justify-evenly items-center text-center
@@ -37,7 +40,7 @@
         @apply flex justify-center items-center mt-8 w-auto z-10 drop-shadow-2xl
     }
     .company > h1 {
-        @apply w-fit text-9xl p-8 rounded-md 
+        @apply w-fit text-8xl p-8 rounded-md 
     }
     ul {
         @apply flex 
@@ -46,7 +49,7 @@
         @apply p-4
     }
     .navbar-logo{
-        @apply mt-4 z-40
+        @apply w-3/5
     }
     html{
         @apply scroll-smooth

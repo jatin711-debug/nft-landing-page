@@ -1,3 +1,4 @@
+import SocialMedia from '../SocialMedia/SocialMedia';
 const Footer = () => {
     return (
       <div data-aos="fade-down" className="foot">
@@ -8,12 +9,8 @@ const Footer = () => {
             <p>Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code.</p>
           </div>
           <div className="footer-products">
-            <h1>Products</h1>
-            <ul>
-              <li>link1</li>
-              <li>link1</li>
-              <li>link1</li>
-            </ul>
+            <h1>Links</h1>
+            <SocialMedia />
           </div>
         </div>
         <hr/>
